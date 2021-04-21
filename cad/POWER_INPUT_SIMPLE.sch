@@ -1,0 +1,326 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+24V #PWR0101
+U 1 1 5F859FA6
+P 3000 2350
+F 0 "#PWR0101" H 3000 2200 50  0001 C CNN
+F 1 "+24V" H 3000 2500 50  0000 C CNN
+F 2 "" H 3000 2350 50  0001 C CNN
+F 3 "" H 3000 2350 50  0001 C CNN
+	1    3000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J6
+U 1 1 5F85A87D
+P 3350 2450
+F 0 "J6" H 3300 2550 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" V 3450 2000 50  0000 L CNN
+F 2 "EvezorLIB:CONN_ON_SHORE_2x_15A" H 3350 2450 50  0001 C CNN
+F 3 "~" H 3350 2450 50  0001 C CNN
+	1    3350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F374077
+P 3000 2650
+F 0 "#PWR0103" H 3000 2400 50  0001 C CNN
+F 1 "GND" H 3005 2477 50  0000 C CNN
+F 2 "" H 3000 2650 50  0001 C CNN
+F 3 "" H 3000 2650 50  0001 C CNN
+	1    3000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5F34B7EF
+P 2400 4650
+F 0 "J2" V 2364 4262 50  0000 R CNN
+F 1 "RJ11" V 2500 4800 50  0000 R CNN
+F 2 "EvezorLIB:RJ11_C189747_Horizontal" H 2400 4650 50  0001 C CNN
+F 3 "~" H 2400 4650 50  0001 C CNN
+	1    2400 4650
+	0    -1   -1   0   
+$EndComp
+Text Label 2400 5150 1    50   ~ 0
+CAN_H
+Text Label 2500 5150 1    50   ~ 0
+CAN_L
+Wire Wire Line
+	2400 4850 2400 5150
+Wire Wire Line
+	2500 4850 2500 5150
+$Comp
+L power:GND #PWR0117
+U 1 1 5F35419E
+P 2200 4850
+F 0 "#PWR0117" H 2200 4600 50  0001 C CNN
+F 1 "GND" V 2200 4650 50  0000 C CNN
+F 2 "" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0001 C CNN
+	1    2200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5F366756
+P 2400 5500
+F 0 "J3" V 2364 5112 50  0000 R CNN
+F 1 "RJ11" V 2500 5650 50  0000 R CNN
+F 2 "EvezorLIB:RJ11_C189747_Horizontal" H 2400 5500 50  0001 C CNN
+F 3 "~" H 2400 5500 50  0001 C CNN
+	1    2400 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 2400 6000 1    50   ~ 0
+CAN_H
+Text Label 2500 6000 1    50   ~ 0
+CAN_L
+Wire Wire Line
+	2400 5700 2400 6000
+Wire Wire Line
+	2500 5700 2500 6000
+$Comp
+L power:GND #PWR0119
+U 1 1 5F366764
+P 2200 5700
+F 0 "#PWR0119" H 2200 5450 50  0001 C CNN
+F 1 "GND" V 2200 5500 50  0000 C CNN
+F 2 "" H 2200 5700 50  0001 C CNN
+F 3 "" H 2200 5700 50  0001 C CNN
+	1    2200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5F36A97F
+P 3600 4650
+F 0 "J4" V 3564 4262 50  0000 R CNN
+F 1 "PH" V 3700 4800 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3600 4650 50  0001 C CNN
+F 3 "~" H 3600 4650 50  0001 C CNN
+	1    3600 4650
+	0    -1   -1   0   
+$EndComp
+Text Label 3600 5150 1    50   ~ 0
+CAN_H
+Text Label 3700 5150 1    50   ~ 0
+CAN_L
+Wire Wire Line
+	3600 4850 3600 5150
+Wire Wire Line
+	3700 4850 3700 5150
+$Comp
+L power:GND #PWR0121
+U 1 1 5F36A98D
+P 3400 4850
+F 0 "#PWR0121" H 3400 4600 50  0001 C CNN
+F 1 "GND" V 3400 4650 50  0000 C CNN
+F 2 "" H 3400 4850 50  0001 C CNN
+F 3 "" H 3400 4850 50  0001 C CNN
+	1    3400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 5F36A9A3
+P 3600 5500
+F 0 "J5" V 3564 5112 50  0000 R CNN
+F 1 "PH" V 3700 5650 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3600 5500 50  0001 C CNN
+F 3 "~" H 3600 5500 50  0001 C CNN
+	1    3600 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 3600 6000 1    50   ~ 0
+CAN_H
+Text Label 3700 6000 1    50   ~ 0
+CAN_L
+Wire Wire Line
+	3600 5700 3600 6000
+Wire Wire Line
+	3700 5700 3700 6000
+$Comp
+L power:GND #PWR0123
+U 1 1 5F36A9B1
+P 3400 5700
+F 0 "#PWR0123" H 3400 5450 50  0001 C CNN
+F 1 "GND" V 3400 5500 50  0000 C CNN
+F 2 "" H 3400 5700 50  0001 C CNN
+F 3 "" H 3400 5700 50  0001 C CNN
+	1    3400 5700
+	1    0    0    -1  
+$EndComp
+Text Label 2300 5100 1    50   ~ 0
+FD_H
+Text Label 2600 5100 1    50   ~ 0
+FD_L
+Wire Wire Line
+	2300 4850 2300 5100
+Wire Wire Line
+	2600 4850 2600 5100
+Text Label 3500 5100 1    50   ~ 0
+FD_H
+Text Label 3800 5100 1    50   ~ 0
+FD_L
+Wire Wire Line
+	3500 4850 3500 5100
+Wire Wire Line
+	3800 4850 3800 5100
+Text Label 3500 5950 1    50   ~ 0
+FD_H
+Text Label 3800 5950 1    50   ~ 0
+FD_L
+Wire Wire Line
+	3500 5700 3500 5950
+Wire Wire Line
+	3800 5700 3800 5950
+Text Label 2300 5950 1    50   ~ 0
+FD_H
+Text Label 2600 5950 1    50   ~ 0
+FD_L
+Wire Wire Line
+	2300 5700 2300 5950
+Wire Wire Line
+	2600 5700 2600 5950
+$Comp
+L Connector:Barrel_Jack J1
+U 1 1 5F858B0C
+P 2350 2500
+F 0 "J1" H 2350 2800 50  0000 C CNN
+F 1 "Barrel_Jack" H 2300 2700 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2400 2460 50  0001 C CNN
+F 3 "~" H 2400 2460 50  0001 C CNN
+	1    2350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5F882F46
+P 2700 3500
+F 0 "F1" V 2503 3500 50  0000 C CNN
+F 1 "Fuse" V 2594 3500 50  0000 C CNN
+F 2 "EvezorLIB:FUSE_BK-6013-ND" V 2630 3500 50  0001 C CNN
+F 3 "~" H 2700 3500 50  0001 C CNN
+	1    2700 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+24V #PWR0102
+U 1 1 5F883C1D
+P 2550 3500
+F 0 "#PWR0102" H 2550 3350 50  0001 C CNN
+F 1 "+24V" H 2550 3650 50  0000 C CNN
+F 2 "" H 2550 3500 50  0001 C CNN
+F 3 "" H 2550 3500 50  0001 C CNN
+	1    2550 3500
+	0    -1   -1   0   
+$EndComp
+Text Label 3150 3500 2    50   ~ 0
+FUSED
+Wire Wire Line
+	2850 3500 3150 3500
+Text Label 2700 5150 1    50   ~ 0
+FUSED
+Wire Wire Line
+	2700 5150 2700 4850
+Text Label 3900 5150 1    50   ~ 0
+FUSED
+Wire Wire Line
+	3900 5150 3900 4850
+Text Label 2700 6000 1    50   ~ 0
+FUSED
+Wire Wire Line
+	2700 6000 2700 5700
+Text Label 3900 6000 1    50   ~ 0
+FUSED
+Wire Wire Line
+	3900 6000 3900 5700
+$Comp
+L Device:LED D1
+U 1 1 5F8865E3
+P 3150 3850
+F 0 "D1" H 3143 3595 50  0000 C CNN
+F 1 "LED" H 3143 3686 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3150 3850 50  0001 C CNN
+F 3 "~" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F887998
+P 3150 3600
+F 0 "R1" H 3091 3554 50  0000 R CNN
+F 1 "4.7k" H 3091 3645 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3150 3600 50  0001 C CNN
+F 3 "~" H 3150 3600 50  0001 C CNN
+	1    3150 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F88DE0D
+P 3150 4000
+F 0 "#PWR0104" H 3150 3750 50  0001 C CNN
+F 1 "GND" H 3155 3827 50  0000 C CNN
+F 2 "" H 3150 4000 50  0001 C CNN
+F 3 "" H 3150 4000 50  0001 C CNN
+	1    3150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D2
+U 1 1 5F688F33
+P 2850 2500
+F 0 "D2" H 2800 2400 50  0000 L CNN
+F 1 "Diode" H 2750 2600 50  0000 L CNN
+F 2 "Diode_SMD:D_SMB" H 2850 2500 50  0001 C CNN
+F 3 "~" H 2850 2500 50  0001 C CNN
+	1    2850 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 2400 2750 2400
+Wire Wire Line
+	2750 2400 2750 2350
+Wire Wire Line
+	2750 2350 2850 2350
+Wire Wire Line
+	2650 2600 2750 2600
+Wire Wire Line
+	2750 2600 2750 2650
+Wire Wire Line
+	2750 2650 2850 2650
+Wire Wire Line
+	3000 2650 3000 2550
+Wire Wire Line
+	3000 2550 3150 2550
+Connection ~ 2850 2650
+Wire Wire Line
+	2850 2650 3000 2650
+Connection ~ 3000 2650
+Wire Wire Line
+	2850 2350 3000 2350
+Wire Wire Line
+	3000 2350 3000 2450
+Wire Wire Line
+	3000 2450 3150 2450
+Connection ~ 2850 2350
+Connection ~ 3000 2350
+$EndSCHEMATC
