@@ -1,0 +1,1 @@
+# power_input_simple
